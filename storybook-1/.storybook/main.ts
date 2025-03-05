@@ -22,6 +22,10 @@ const config: StorybookConfig = {
       expanded: false, // Optional, true by default,
       //sourceUrl: 'https://github.com/storybookjs/storybook', // Optional
     },
+    react: {
+      title: 'Storybook local (localhost)',
+      url: 'http://localhost:6007',
+    },
   },
 };
 export default config;
